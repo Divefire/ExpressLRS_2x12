@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Source files: normalize and diff nicely
+*.c     text diff=c
+*.cpp   text diff=cpp
+*.h     text diff=c
+*.hpp   text diff=cpp
+*.py    text diff=python
+
+# ESP32 firmware artifacts: binary
+*.bin   binary
+*.elf   binary
+*.map   binary
