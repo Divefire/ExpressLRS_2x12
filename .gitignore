@@ -8,3 +8,19 @@ src/.vscode
 src/data/*.ini
 src/data/*.json
 src/hardware
+
+# PlatformIO / ESP-IDF
+.pio/
+build/
+*.elf
+*.bin
+*.map
+sdkconfig.old
+
+# VS Code
+.vscode/
+.history/
+
+# Python caches
+__pycache__/
+*.pyc
